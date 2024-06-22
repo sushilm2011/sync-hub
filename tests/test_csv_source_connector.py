@@ -61,7 +61,3 @@ class TestCSVSourceConnector(unittest.TestCase):
 
     connector.execute(callback)
     self.assertEqual(result, EXPECTED_DATA)
-
-
-if __name__ == "__main__":
-  unittest.main()
